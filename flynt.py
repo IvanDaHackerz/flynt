@@ -1094,13 +1094,13 @@ class Interpreter:
                     return res
                 return res.success(expr_value)
 
-            if node.else_case:
-                else_value = res.register(self.visit(node.else_case, context))
-                if res.error:
-                    return res
-                return res.success(else_value)
+        if node.else_case:
+            else_value = res.register(self.visit(node.else_case, context))
+            if res.error:
+                return res
+            return res.success(else_value)
 
-            return res.success(None)
+        return res.success(None)
 
 
 # RUN

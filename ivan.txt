@@ -1,6 +1,0 @@
-SET text = "BADING AKO SOBRA MAN"
-
-SET x = TRUE
-SET y = TRUE
-
-text

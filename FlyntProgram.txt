@@ -1,0 +1,5 @@
+SET myNum1 = 3
+SET myNum2 = 100
+SET myNum3 = 67
+
+IF myNum1 > myNum2 ALSO myNum1 > myNum3 THEN myNum1 ELIF myNum2 > myNum3 THEN myNum2 ELSE myNum3
