@@ -1,6 +1,6 @@
-SET x = 5
-SET y = TRUE
+SET loplop = 5
+SET librado = 10
 
-IF y == x THEN 123 ELIF y >= x THEN 321 ELSE 000
+IF loplop == librado THEN 100 ELIF loplop <= librado THEN 300 ELSE 500
 
-x + y
+alksjdlaksjdlaksjdlaksjdalskjaslkdjas
